@@ -1,0 +1,240 @@
+{
+    "menu": {
+        "intro": "Introduce",
+        "video": "Video",
+        "advantage": "Product",
+        "solution": "Software advantages",
+        "customer":  "Customer & Partner"
+    },
+    
+    "lang": {
+        "vn": "Vietnamese",
+        "en": "English",
+        "kr": "Korean"
+    },
+    
+    "mainPage": {
+        "touch": "InfoERP",
+        "lifeUtil": "Online Accounting and Finance Management Solution", 
+        "solution": "Cost saving - high automation - maximum efficiency",
+        "registerBtn": "Free Trial",
+        "registerPopupTitle": "Sign up for a free InfoERP experience",
+        "registerPopupBtn": "Register now",
+        "registerPopupLoadingBtn" : "Processing"
+    },
+    
+    "intro": {
+        "title" : "InfoERP",
+        "software": "A Supportive software for",
+        "for": "Management and residents",
+        "apartment": "Apartment management",
+        "apartmentDetail": "Infocity is the leading software in the application of technology in property operation management. Infocity intergrates various features in maximizing the support for specialized management operations and avoiding wasted human resources. Systematize the management of papers and reports to help clear and transparent management. Enhance real estate values ​​and increase profits.",
+        "complex": "Complex commercial management",
+        "complexDetail": "Infocity allows you to manage a complex commercial building to systematize a comprehensive operational management model from Contract management to General Accounting, contributing to the highest business efficiency.",
+        "cowork": "Coworking office management",
+        "coworkDetail": "Infocity supports operation and management of contracts, booking of serviced office services, various types from Share Office, Virtual Office and Meeting Space.",
+        "mini": "Inn and mini-apartment management",
+        "miniDetail": "InfoCity supports homeowners with operations and management of the chain of rooms/homestay remotely with simple operations on the system. Support tools to directly interact with tenants from the system to help reduce support staff as well as save administration time", 
+        "dorm": "Dorm management",
+        "dormDetail": "The solution helps the dormitory management board to statisticalize the list of dormitory rooms, list of students, manage guest registration in and out, monitor payment of fees, manage complaints and receive repair requests"
+    },
+    
+    "introVideo": {
+        "markTitle":"About",
+        "title": "About InfoERP",
+        "registerBtn": "Sign up for our free demo"
+    },
+    
+    "advantage": {
+        "subTitle" : "",
+        "title": "Advantages of using Accounting software InfoERP",
+        "mobileTitle1": "Advantage",
+        "mobileTitle2": "Infocity",
+        "webTitle1": "2. Friendly, Easy to use Interface",
+        "webTitle2": "friendly and easy-to-use", 
+        "webDetail": "Simple operation, scientific division according to each business process. Easily assign authority according to many criteria, serving accounting management at all levels.",
+        "appManTitle1": "3. Integration of E-bank and <br/> E-invoice features",
+        "appManTitle2": "with mobile app",
+        "appManSubTitle": "",
+        "appManDetail": "Built-in firm banking feature, realtime checking balance, transaction history of each account. comparing the subledger with the deposit amount and record the deposit collection/disbursement transactions. Process transactions immediately, saving time for going to and waiting at the bank.",
+        "appManDetail2":"Receiving E-invoices from sellers and recording them into accounting software, help accountants saves time and effort in data entry.",
+        "appManDetail3": "Integrate with popular e-invoice partners: Vn invoice, M invoice, Easy Invoice, VNPT invoice, FPT invoice, Mifi invoice...",
+        "appResTitle1": "4. Tool for comparison checking",
+        "appResTitle2": "for App Resident",
+        "appResSubTitle": "",
+        "appResDetail": "Provide tools to check and compare books and reports, detect and guide incorrect handling, to help accountants save time and effort when making annual financial statements.",
+        "registerBtn": "Sign up for our free demo",
+        "appLanguageTitle1": "5. Provide Multi-language",
+        "appLanguageDetail": "Provide multi-language (Vietnamese, Korean, English, Japanese, Chinese) to adapt to the current trend of international integration and economic globalization.",
+        "accountingBotTitle": "1. Automated document accounting processing solution",
+        "accountingBotDetail": "In order to assist users in minimizing data entry time in accounting operations, InfoERP would like to introduce the solution “<strong>Automated Accounting BOT</strong>” – A solution to process invoices and create documents automatically. The solution is innovatively improved to shorten operation time, reduce costs and increase revenue for businesses."
+    },
+    "workshop": {
+        "markTitle":"About",
+        "title": "About InfoPlus",
+        "emphasisContent":"InfoPlus is enterprise BaaS (Banking-as-a-Service) Platform",
+        "contentFirst": "specializes in providing necessary ICT financial services and solutions for Southeast Asian businesses and financial institutions, with Vietnam as the focus.",
+        "contentSecond": "Based on the advanced ICT platform in the financial sector, we always strive to support our customers' business activities in the most effective way.",
+        "contentThree": "From infrastructure to digital financial API platform, InfoPlus has been striving to become the leading force in Vietnam's financial IT market through pioneering in advanced financial IT."
+    },
+    "solution": {
+        "title": "Advantages of using InfoERP",
+        "mobileTitle1": "Benefit",
+        "mobileTitle2": "for your properties",
+        "subTitle": "",
+        "public" : {
+            "title": "Profit",
+            "subTitle": "Co-branding subscription",
+            "detail": {
+                "1": "Instantly capture business activities to make timely decisions",
+                "2": "Automation helps reduce operating costs, improve productivity, increase profits",
+                "3": "Mobile app for management",
+                "4": "Free cloud infrastructure",
+                "5": "Co-branding with Infoplus",
+                "6": "Common source code"
+            },
+            "slogan": "Sign up for 3-month free trial"
+        },
+        "private" : {
+            "title": "Cost savings",
+            "subTitle": "Separate branding subscription",
+            "detail": {
+                "1": "Strict cost control to cut unnecessary expenses",
+                "2": "Saving investment costs by not having to invest in infrastructure and system administration personnel",
+                "3": "Mobile app for management",
+                "4": "Exclusive infrastructure",
+                "5": "Exclusive brandname", 
+                "6": "Exclusive source code"
+            },
+            "slogan": "Stand out with your own brandname"
+        },
+        "productivity" : {
+            "title":"Work productivity",
+            "subTitle": "",
+            "detail": {
+                "1": "Fully automate operations, reduce manual work time",
+                "2": "Regulations are clearly built, closely linked with other departments"
+            }
+        },
+        "registerBtn": "Resgister"
+    },
+    
+    "customer": {
+        "title1": "Customers",
+        "title2": "are using the service",
+        "customer": "Partner",
+        "building": "Customer",
+        "user": "User",
+        "registerBtn": "Free Trial"
+    },
+    
+    "register": {
+        "title": "Get in touch with our experts today for the most suitable solution and experiencing our software", 
+        "webTitle1": "Product Use Registration",
+        "webTitle2": "",
+        "form": {
+            "name": "Full Name",
+            "tax": "Business Registration Number",
+            "phone": "Phone Number",
+            "email": "Email",
+            "area": "Area",
+            "room": "Number of apartment units"
+        },
+        "registerBtn": "Register",
+        "note1": "Normal company: Free use 15 days.",
+        "note2": "Accounting Service: Free use 30 days.",
+        "note3": "Accounting Service Company: Free first year for service customer."
+    },
+    
+    "about": {
+        "mainAddress": "Head office: 17F, IDMC building, 18th Ton That Thuyet Street, My Dinh2, Nam Tu Liem District, Hanoi, Vietnam", 
+        "office":"Southern Office: 163 Nguyen Van Troi, Ward 11, Phu Nhuan District, Ho Chi Minh City",
+        "email":"Email: infoerp@infoplusvn.com",
+        "address": "17F, IDMC building, 18th Ton That Thuyet Street, My Dinh2, Nam Tu Liem District, Hanoi, Vietnam",
+        "contact": "salemarketing@infoplusvn.com",
+        "paper": "Business registration certificate: 0108154862 - Date of issue: 03/02/2018, revised for the 7th time on 16/07/2021",
+        "issuedBy": "Business Registration Office - Department of Planning and Investment of Ho Chi Minh City. Hanoi",
+        "chatContent1": "We are always online!", 
+        "chatContent2": "Chat with us",
+        "aboutErp": "About InfoERP"
+    },   
+    
+    "error" : {
+        "empty": "Field is required",
+        "invalid": "Invalid value"
+    },
+
+    "homePage": "Homepage",
+
+    "send": {
+        "success": {
+            "title": "Registration Sucess!",
+            "subTitle": "We will be contacting you soon!"
+        },
+        "fail": {
+            "title": "Registration Failed",
+            "subTitle": "There was an error during the process. Please try again",
+            "registerAgain": "Register Again"
+        }
+    },
+    "accountingSoftware": {
+        "markTitle":"Solution",
+        "title": "Accounting software solutions <br/> for all types of businesses",
+        "regularBusinesses":"For regular businesses",
+        "audittingServiceBusiness":"For Accounting/Auditting Service Business",
+        "regularBusinessesDetail":{
+            "1":"Data Security",
+            "2":"Synchronization and accurate accounting",
+            "3":"Control Financial Flow",
+            "4":"Speed up the Production and Supply of Goods & Service",
+            "5":"Quality Inspection, Project management",
+            "6":"Standardization of Business processes in enterprises",
+            "7":"Inventory management",
+            "8":"Standardization of personnel management activities"
+        },
+        "subTitle1":"With business",
+        "subTitle2":"With business",
+        "subTitleBold1":"usually",
+        "subTitleBold2":"accounting/auditing services"
+    },
+    "discount":{
+        "titleFirstColumn":"Reduce",
+        "subTitleFirstColumn":"70%",
+        "detailFirstColumn":"Invoice, paperwork staff",
+        "titleSecondColumn":"Reduce",
+        "subTitleSecondColumn":"80%",
+        "detailSecondColumn":"Supplier/Customer Management Staff",
+        "titleThirdColumn":"Reduce",
+        "subTitleThirdColumn":"60%",
+        "detailThirdColumn":"Cashier",
+        "titleFourthColumn":"Reduce",
+        "subTitleFourthColumn":"90%",
+        "detailFourthColumn":"Report Staff"
+    },
+    "partner":{
+        "markTitle":"Partner",
+        "title":"Our Partner",
+        "businessPartner":"Business Partner",
+        "educatePartner":"Education Partner",
+        "memberUnit":"Member Unit"
+    },
+    "introduction":{
+        "detail":{
+            "1":"InfoERP accounting software provides solutions to help manage Accounting - Finance for Enterprises and Financial, Accounting and Auditing companies in Vietnam.",
+            "2":"InfoERP is an online, multilingual accounting software, developed by a technology company from Korea specializing in financial management products, and can meet all types of businesses: Trade, Service, Construction, Production."
+        }
+    },
+    "placeholder": {
+        "name": "Enter your first and last name",
+        "phone": "Enter your phone number",
+        "email": "Enter email",
+        "area": "Ex: No. 81 Tran Thai Tong, Dich Vong Ward, Cau Giay District, Hanoi, Vietnam",
+        "numberRoom": "Ex: 1000",
+        "tax": "Enter tax code"
+    },
+    "qrCode":{
+        "sendFail": "Send unsuccessful",
+        "invalidIdCard": "Invalid data at ID Card",
+        "invalidMobile": "Invalid data at Mobile"
+    }
+}

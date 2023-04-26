@@ -1,0 +1,43 @@
+.ruleDiv {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 38px 100px 34px 100px;
+  min-height: 500px;
+  width: 100%;
+  margin: auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  overflow: hidden;
+}
+
+.ruleTitleLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #225dc0;
+}
+
+@media only screen and (max-width: 991px) {
+  .ruleDiv {
+    padding: 10px 15px;
+    border-radius: 0;
+    overflow: auto;
+  }
+
+}
+
+#homeRuleLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5c5c5c;
+}
+
+#homeRuleLabel:hover {
+  color: #225dc0;
+}

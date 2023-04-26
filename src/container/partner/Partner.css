@@ -1,0 +1,196 @@
+.bussiness-title {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color:#152C7C;
+    font-style: normal;
+    font-family: 'SVN-Gilroy';
+    margin-top: 24px;
+}
+
+.bussiness-sub-title {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: 'SVN-Gilroy';
+    font-style: normal;
+    color:#363E49;
+    margin-top: 12px 0px 27px 0px;
+}
+
+.tick {
+    width: 64px;
+    height: 6px;
+    margin: 20px 0 30px 0;
+    background: #225DC0;
+
+}
+
+#partner{
+    margin-top:100px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.trainPartner1 {
+    width: 192px;
+    /* height: 64px; */
+    margin-right: 40px;
+}
+
+.trainPartner2 {
+    width: 96px;
+    /* height: 101px; */
+    margin-right: 40px;
+}
+
+.trainPartner3 {
+    width: 88.55px;
+    /* height: 84px; */
+}
+
+.businessPartner1{
+    width: 102px;
+    /* height: 70px; */
+    margin-right: 50px;
+}
+
+.businessPartner2{
+    width: 134px;
+    /* height: 48px; */
+    margin-right: 50px;
+}
+
+.businessPartner3{
+    width: 142px;
+    /* height: 65px; */
+    margin-right: 50px;
+}
+
+.businessPartner4{
+    width: 171px;
+    /* height: 56px; */
+    margin-right: 50px;
+}
+.businessPartner5{
+    width: 111px;
+    /* height: 43px; */
+    margin-right: 50px;
+}
+.businessPartner6{
+    width: 146px;
+    /* height: 27px; */
+    margin-right: 50px;
+}
+.businessPartner7{
+    width: 183px;
+    /* height: 72px; */
+    margin-right: 50px;
+}
+.businessPartner8{
+    width: 103px;
+    height: 60px;
+    margin-right: 50px;
+}
+.businessPartner9{
+    width: 135px;
+    /* height: 34px; */
+    margin-right: 50px;
+}
+.businessPartner10{
+    width: 151px;
+    /* height: 45px; */
+    margin-right: 50px;
+}
+.businessPartner11{
+    width: 151px;
+    /* height: 45px; */
+    margin-right: 50px;
+}
+.businessPartner12{
+    width: 132px;
+    /* height: 55px; */
+    margin-right: 45px;
+}
+.businessPartner13{
+    width: 115px;
+    height: 36px;
+    margin-right: 50px;
+}
+.businessPartner14{
+    width: 102px;
+    height: 38px;
+    margin-right: 50px;
+}
+.businessPartner15{
+    width: 125px;
+    height: 54px;
+    margin-right: 50px;
+}
+
+#partner .backgroundTitle{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: -53px;
+    font-family: 'SVN-Gilroy-Bold';
+    font-style: normal;
+    font-weight: 999;
+    font-size: 96px;
+    line-height: 101px;
+    align-items: center;
+    text-align: center;
+    color: #EDEDED;
+}
+
+.text-center{
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 991px) {
+
+    .text-center {
+        margin-bottom: unset !important;
+    }
+
+    .bussiness-sub-title{
+        font-size: 22px;
+    }
+
+    .bussiness-title{
+        font-size: 28px;
+    }
+
+    #partner{
+        margin-top:60px;
+        margin-bottom:0px
+    }
+
+
+    .businessPartner1,
+    .businessPartner2,
+    .businessPartner3,
+    .businessPartner4,
+    .businessPartner5,
+    .businessPartner6,
+    .businessPartner7,
+    .businessPartner8,
+    .businessPartner9,
+    .businessPartner10,
+    .businessPartner11,
+    .businessPartner12,
+    .businessPartner13,
+    .businessPartner14,
+    .businessPartner15{
+        margin-bottom: 8px;
+    }
+
+    .businessPartner6{
+       margin-right: 0;
+    }
+
+    #partner .backgroundTitle{
+        font-size: 68px;
+        top: -41px;
+    }
+}

@@ -1,0 +1,181 @@
+#titleLabel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height, or 110% */
+    text-transform: uppercase;
+}
+
+#subTitleLabel {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #313131;
+}
+
+#formQR {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    padding: 10px;
+}
+
+#formQR .inputQR button {
+    background: #D6B359;
+    border-radius: 12px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+#modalConfirm .btn {
+    background: #D6B359;
+    border-radius: 12px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #012041;
+    width: 100%;
+    height: 40px;
+}
+
+#modalConfirm .cancelBtn {
+    background: #e0e0e0;
+    border-radius: 12px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5c5c5c;
+    width: 100%;
+    height: 40px;
+}
+
+#sendBtn {
+    background: #D6B359;
+    border-radius: 12px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 40px;
+    width: 100%;
+    margin-top: 38px;
+}
+
+#formInputQR label {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#formInputQR {
+    margin-top: 25px;
+    max-width: 338px;
+}
+
+.inputQR {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.inputDiv {
+    margin-top: 20px;
+}
+
+.inputQR select {
+    border: 1px solid #DFE8F3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+}
+
+.inputQR option {
+    border-radius: 10px;
+    border: none;
+}
+
+.formInput .form-control:disabled, .form-control[readonly] {
+    background-color: #FFFFFF;
+}
+
+.formInput {
+    border: 1px solid #DFE8F3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 40px;
+    max-width: 338px;
+}
+
+#datePickerInput input {
+    width: 100%;
+}
+
+.inputQR input[type=radio] {
+    width: 16px;
+}
+
+.MuiInput-underline:before {
+    border-bottom: none !important;
+}
+
+.MuiFormControl-marginNormal {
+    width: 100%;
+    margin: auto !important;
+}
+
+#datePickerDiv {
+    background: #FFFFFF;
+    border: 1px solid #DFE8F3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    padding-left: 5px;
+}
+
+.roomPicker {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+}
+
+.roomPicker input {
+    width: 100%;
+}
+
+.roomPicker .MuiFormControl-root {
+    width: 100%;
+    margin: auto;
+    background: #FFFFFF;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#formQR .MuiSvgIcon-root {
+    color: #D6B359;
+}

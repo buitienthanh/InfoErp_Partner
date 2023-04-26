@@ -1,0 +1,151 @@
+.aboutInfo {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 9px;
+  /* identical to box height */
+
+  /* Blue shadow 1 */
+
+  color: #ffffff;
+}
+
+#aboutDiv {
+  height: 337.52;
+  padding: 20px 0;
+  max-width: 1234px;
+  margin: auto;
+}
+
+#govDiv {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.logo-erp {
+    width: 167px;
+    height: 48.73px;
+}
+
+#social {
+  bottom:30px;
+}
+
+.footer {
+  background: #152C7C;
+}
+
+.info-erp {
+  display: none;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+
+  
+  #aboutDiv {
+    /* height: 290px; */
+    display: flex;
+    height: 284px;
+    padding-top: 45px;
+    /* padding:68px 0px; */
+  }
+
+  .aboutLine {
+    width: 0;
+    height: 0;
+  }
+
+  #aboutChat {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 1166px) {
+  #aboutDiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .logo-erp {
+    height: 48px;
+    margin: 20px 0px 40px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 167px;
+  }
+
+  #aboutDiv {
+    padding: 20px !important;
+    height: 700px;
+  }
+
+  #govDiv {
+    display: flex;
+    bottom: -96px;
+    right: 16px;
+  }
+
+  #social {
+    bottom: -80px;
+    left: 16px;
+  }
+
+  #govDiv a {
+    margin-left: auto;
+  }
+
+  .aboutLine {
+    opacity: 0.1;
+    border: 1px solid #304f79;
+  }
+}
+
+.aboutInfoDetail{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 2px;
+}
+
+.aboutErp{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.aboutLink {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.aboutLink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.wrappedLink{
+  margin-bottom: 23px;
+}
+
+@media only screen and (max-width: 992px) {
+  #aboutErp {
+    display: none;
+  }
+}
+

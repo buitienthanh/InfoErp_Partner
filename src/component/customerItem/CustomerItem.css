@@ -1,0 +1,48 @@
+.custNumberLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+
+  /* Gray 4 */
+
+  color: #363e49;
+}
+
+.custContentLabel {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #888888;
+font-weight: 700;
+font-size: 16px;
+/* identical to box height */
+
+
+color: #888888;
+}
+
+.custNumDiv {
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .custNumberLabel {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+
+    /* Gray 4 */
+
+    color: #363e49;
+  }
+
+  .custContentLabel {
+    font-size: 16px;
+  }
+}

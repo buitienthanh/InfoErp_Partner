@@ -1,0 +1,73 @@
+.imgDisable {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.contentImg {
+  max-width: 436px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.itemAdvDivWeb {
+  display: flex;
+  margin: auto;
+}
+
+.itemAdvDetailWeb {
+  max-width: 386px;
+}
+
+.advSubWeb {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #225dc0;
+}
+
+.advTitleWeb {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 40px;
+  /* or 125% */
+
+  /* Gray 4 */
+
+  color: #363e49;
+}
+
+.advSubDetail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+  color: #4e4e4e;
+  margin-top: 20px;
+  letter-spacing: -0.5px;
+}
+
+.itemAdvDivWeb .imgRight img {
+  max-height: 584px;
+}
+
+#advDivWeb .col-6 {
+  padding-left: 0 !important;
+  display: flex;
+}
+
+.imgLeft,.imgRight {
+  margin-left: auto;
+  margin-right: auto;
+}

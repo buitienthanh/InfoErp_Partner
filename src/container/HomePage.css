@@ -1,0 +1,32 @@
+#colorBackDiv {
+    background-image: url('../img/mainPage/main_page.png');
+    background-color: #F9F9F9;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 77% 60%; 
+    /* margin-bottom: 68px; */
+}
+
+#rulePage {
+    display: none;
+}
+
+#divBottom {
+    background-color: #EDF3FB;
+}
+
+
+@media only screen and (max-width: 991px) {
+    #colorBackDiv {
+        height: 590px;
+    }
+}
+
+.siteLayout {
+    max-width: 1234px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+

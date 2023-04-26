@@ -1,0 +1,231 @@
+.registerButton {
+  background: #54D19C;
+  box-shadow: none;
+  /* border-radius: 12px; */
+  max-width: 351px;
+  border-color: #54D19C;
+  padding: 5px;
+  text-align: center;
+  z-index: 2;
+  height: 50px;
+  display: flex;
+  margin: auto;
+}
+
+.btnLayout {
+  margin: auto;
+}
+
+.registerLabel {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: uppercase;
+/* identical to box height */
+align-items: center;
+text-align: center;
+cursor: pointer;
+  /* White */
+
+  color: #152C7C;
+  margin: auto;
+}
+
+.registerPhone{
+  position: absolute;
+  bottom: 0px;
+  width: 241px;
+  height: 43px;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  border: 1px solid !important;
+}
+
+.regTitle {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  /* or 120% */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  padding: 25px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.regImgBack {
+  height: 100%;
+  max-height: 854px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+#modalRegister .registerDiv {
+  height: 533px;
+  margin-bottom: 50px;
+  max-width: 1167px;
+  width: 68%;
+  margin: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-color: #152C7C;
+}
+
+.registerDiv {
+  height: 800px;
+  margin-bottom: 50px;
+  max-width: 1167px;
+  width: 100%;
+  margin: auto;
+  /* border-top-left-radius: 12px; */
+  /* border-top-right-radius: 12px; */
+  /* background-color: #152C7C; */
+}
+
+.regLayoutDiv {
+  display: flex;
+  margin-top: 60;
+}
+
+#modalRegister .regTitle {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 129% */
+
+  text-align: center;
+
+  /* Gray 4 */
+
+  color: #363e49;
+}
+
+#modalRegister .registerDiv {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+#modalRegister .regImgBack {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  z-index: -1;
+}
+
+#modalRegister .regLayoutDiv {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  #modalRegister .registerDiv {
+    /* height: 700px !important; */
+    width: 100%;
+  }
+  #btnClose{
+    right:0px;
+  }
+
+  .errorLayout {
+    width: 295px;
+  }
+
+  .registerButton {
+    height: 42px;
+    max-width: 300px;
+  }
+
+  .registerDiv {
+    border-radius: 0%;
+    height: 740px;
+  }
+
+  #modalRegister .regTitle {
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 420px) {
+  .errorLayout {
+    width: 100%;
+  }
+
+  .buttonRegisterDiv{
+    margin-top: -6px;
+  }
+
+  .registerDiv {
+    height: 736px;
+  }
+}
+
+@media only screen and (max-width: 305px) {
+  .errorLayout {
+    width: 100%;
+  }
+
+  .registerDiv {
+    height: 670px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .regTitle {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  #btnRegister {
+    width: 429px;
+    max-width: none;
+  }
+
+  .errorLayout {
+    width: 429px;
+  }
+
+  .webInputLeft .errorLayout {
+    width: 204px;
+    min-width: 0;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .webInputRight .errorLayout {
+    width: 204px;
+    min-width: 0;
+  }
+
+  .webInputRight {
+    width: 204px;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+}
+
+.errorDiv {
+  display: flex;
+}
+
+.errorLayout {
+  margin: auto;
+}
+
+#registerForm {
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* margin-top: 25px; */
+}

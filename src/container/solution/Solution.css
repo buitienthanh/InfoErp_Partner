@@ -1,0 +1,61 @@
+.solSubLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #363E49;
+}
+
+#solution .backgroundTitle{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 40px;
+    font-family: 'SVN-Gilroy-Bold';
+    font-style: normal;
+    font-weight: 999;
+    font-size: 96px;
+    line-height: 101px;
+    align-items: center;
+    text-align: center;
+    color: #B2E9FF;
+}
+
+#solImgBack {
+  position: absolute;
+  z-index: -1;
+  /* margin-top: 300px; */
+  height: 648px;
+  width: 100%;
+  left: 0;
+  background-color: #D6FAFF;
+}
+
+#solution .labelTitle{
+  margin-top: 85px;
+}
+
+@media only screen and (max-width: 991px) {
+  #solImgBack {
+    display: none;
+  }
+
+  #solBackDiv {
+    position: absolute;
+    background-color: #EDF3FB;
+    width: 100%;
+    left: 0;
+    /* height: 1000px;
+    margin-top: 450px; */
+    height: 1415px;
+    margin-top: -30px
+  }
+
+  #solution .labelTitle{
+    margin-top: 0px;
+  }
+}

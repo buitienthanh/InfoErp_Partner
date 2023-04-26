@@ -1,0 +1,47 @@
+.advSubTitleLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #225dc0;
+}
+
+.advTitleLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #363e49;
+}
+
+.advContentLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: justify;
+
+  color: #4e4e4e;
+  margin-top: 10px;
+}
+
+.advWebImage {
+    margin-top: -100px;
+    margin-bottom: -50px;
+}
+
+.advAppImage {
+  width: auto;
+  max-width: 300px;
+}
+
+
+#itemRes .advAppImage {
+  margin-bottom: 30px;
+}
+

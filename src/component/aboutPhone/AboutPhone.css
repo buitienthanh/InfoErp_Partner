@@ -1,0 +1,21 @@
+.phoneNumberAbout {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+
+}
+
+.phoneNumberLabel {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .phoneNumberAbout {
+    font-size: 14px;
+  }
+}

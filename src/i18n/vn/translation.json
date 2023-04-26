@@ -1,0 +1,245 @@
+{
+    "menu": {
+        "intro": "Giới thiệu",
+        "video": "Video",
+        "advantage": "Sản phẩm",
+        "solution": "Ưu điểm phần mềm",
+        "customer": "Khách hàng & đối tác"
+    },
+
+    "lang": {
+        "vn": "Tiếng Việt",
+        "en": "Tiếng Anh",
+        "kr": "Tiếng Hàn"
+    },
+
+    "mainPage": {
+        "touch": "Dễ dàng tăng thêm thu nhập từ",
+        "lifeUtil": "20 triệu đồng/ tháng",
+        "solution": "Tăng trưởng thu nhập vượt bậc với chương trình hợp tác triển khai phần mềm kế toán InfoERP",
+        "registerBtn": "Đăng ký ngay",
+        "registerPopupTitle": "Đăng ký trải nghiệm InfoERP miễn phí",
+        "registerPopupBtn": "Đăng ký ngay",
+        "registerPopupLoadingBtn" : "Đang xử lý"
+    },
+
+    "intro": {
+        "title" : "InfoERP",
+        "software": " ERP kết hợp AI cung cấp tất cả ",
+        "for": "các chức năng cần thiết cho Doanh nghiệp",
+        "apartment": "Đăng ký nhận báo giá Online",
+        "apartmentDetail": "Hãy tham khảo dịch vụ của Công ty TNHH InfoPlus, công ty với nền tảng công nghệ IT toàn diện nhất.",
+        "complex": "Yêu cầu tư vấn sử dụng dịch vụ",
+        "complexDetail": "Chúng tôi sẽ tư vấn và đưa ra giải pháp tối ưu phù hợp nhất với Quý doanh nghiệp. ",
+        "cowork": "Văn phòng Coworking",
+        "coworkDetail": "Hỗ trợ vận hành quản lý Hợp đồng, Booking dịch vụ văn phòng dịch vụ, đa dạng các loại hình từ Share Office, Virtual Office, Meeting Space.",
+        "mini": "Quản lý nhà trọ, chung cư mini",
+        "miniDetail": "InfoCity giúp các chủ nhà có thể vận hành quản lý từ xa Chuỗi phòng trọ/Home Stay bằng các thao tác đơn giản trên hệ thống. Công cụ hỗ trợ tương tác trực tiếp với Khách thuê từ hệ thống giúp giảm thiểu nhân lực hỗ trợ cũng như tiết kiệm thời gian quản trị.",
+        "dorm": "Quản lý ký túc xá",
+        "dormDetail": "Giải pháp giúp Ban quản lý Ký túc xá có thể Thống kê danh sách phòng KTX, Thống kê danh sách sinh viên, Quản lý đăng ký khách ra vào, Theo dõi đóng phí, Quản lý khiếu nại, Tiếp nhận yêu cầu sửa chữa."
+    },
+
+    "introVideo": {
+        "markTitle":"Giới thiệu",
+        "title": "Giới thiệu về InfoERP",
+        "subTitle" : "ERP kết hợp AI cung cấp tất cả các chức năng cần thiết cho Doanh nghiệp",
+        "registerBtn": "Trải nghiệm miễn phí"
+    },
+
+    "advantage": {
+        "title": "Ưu điểm khi sử dụng phần mềm kế toán InfoERP",
+        "subTitle":"",
+        "mobileTitle1": "Ưu điểm",
+        "mobileTitle2": "khi sử dụng phần mềm kế toán InfoERP",
+        "webTitle1": "2. Giao diện thân thiện, dễ sử dụng",
+        "webTitle2": "",
+        "webDetail": "Thao tác đơn giản, phân chia khoa học theo từng luồng nghiệp vụ. Dễ dàng phân quyền theo nhiều tiêu chí, phục vụ cho quản lý kế toán theo các cấp.",
+        "appManTitle1": "3. Tích hợp ngân hàng điện tử và Hóa đơn điện tử",
+        "appManTitle2": "với ứng dụng di động",
+        "appManSubTitle": "",
+        "appManDetail": "Tức thời tra cứu số dư, lịch sử giao dịch từng tài khoản. Đối chiếu sổ phụ với số tiền gửi và hạch toán các nghiệp vụ thu/ chi tiền gửi. Tiến hành được các giao dịch ngay, tiết kiệm thời gian di chuyển và chờ đợi ở ngân hàng.",
+        "appManDetail2": "Tính năng nhận hóa đơn điện tử từ người bán và hạch toán vào phần mềm kế toán giúp tiết kiệm thời gian, công sức nhập liệu.",
+        "appManDetail3": "Tích hợp với các đối tác hóa đơn điện tử phổ biến: Vn invoice, M invoice, Easy Invoice, VNPT invoice, FPT invoice, Mifi invoice...",
+        "appResTitle1": "4. Công cụ kiểm tra đối chiếu",
+        "appResTitle2": "tiện ích cho cư dân",
+        "appResSubTitle": "",
+        "appLanguageDetail": "Cung cấp các ngôn ngữ Tiếng Việt, Tiếng Hàn, Tiếng Anh, tiếng Nhật, tiếng Trung, có thể thay đổi ngôn ngữ ngay trên màn hình đang chạy mà không cần đăng nhập lại, thích nghi với xu hướng hội nhập quốc tế, toán cầu hoá kinh tế hiện nay. ",
+        "appLanguageTitle1": "5. Cung cấp đa ngôn ngữ",
+        "appLanguageTitle2": "tiện ích cho cư dân",
+        "appLanguageSubTitle": "",
+        "appResDetail": "Cung cấp công cụ kiểm tra đối chiếu sổ sách, báo cáo, phát hiện và hướng dẫn thao tác xử lý sai lệch giúp kế toán tiết kiệm thời gian, công sức khi lập báo cáo tài chính năm.",
+        "registerBtn": "Trải nghiệm miễn phí",
+        "accountingBotTitle": "1. Giải pháp xử lý hạch toán chứng từ tự động",
+        "accountingBotDetail": "Nhằm hỗ trợ người dùng giảm thiểu tối đa thời gian nhập liệu trong nghiệp vụ kế toán, InfoERP xin giới thiệu giải pháp “<strong>Automated Accounting BOT</strong>” – Giải pháp xử lý hạch toán hóa đơn và lập chứng từ tự động. Giải pháp được cải tiến một cách sáng tạo nhằm rút ngắn thời gian thao tác, giảm chi phí và tăng doanh thu cho doanh nghiệp."
+    },
+
+    "solution": {
+        "title": "Lợi ích khi sử dụng InfoERP",
+        "mobileTitle1": "Lợi ích",
+        "mobileTitle2": "khi sử dụng InfoERP",
+        "subTitle": "",
+        "public" : {
+            "title": "Lợi nhuận",
+            "subTitle": "",
+            "detail": {
+                "1": "Tức thời nắm bắt hoạt động của doanh nghiệp để đưa ra các quyết định kịp thời",
+                "2": "Giúp giảm chi phí vận hành, nâng cao sản xuất, gia tăng lợi nhuận",
+                "3": "Mobile app cho quản lý",
+                "4": "Miễn phí hạ tầng đám mây",
+                "5": "Thương hiệu chung Infoplus",
+                "6": "Mã nguồn chung"
+            },
+            "slogan": "Dùng thử ngay 03 tháng miễn phí"
+        },
+        "private" : {
+            "title": "Tiết kiệm chi phí",
+            "subTitle": "",
+            "detail": {
+                "1": "Kiểm soát chặt chẽ chi phí để cắt giảm các khoản không cần thiết",
+                "2": "Tiết kiệm chi phí đầu tư do không phải đầu tư cơ sở hạ tầng, nhân lực quản trị hệ thống",
+                "3": "Mobile app cho quản lý",
+                "4": "Hạ tầng riêng",
+                "5": "Đồng thương hiệu",
+                "6": "Mã nguồn riêng"
+            },
+            "slogan": "Làm nổi bật thương hiệu của bạn"
+        },
+        "productivity" : {
+            "title":"Năng suất làm việc",
+            "subTitle": "",
+            "detail": {
+                "1": "Giảm bớt thời gian làm việc thủ công",
+                "2": "Quy định được xây dựng rõ ràng, liên kết với các phòng ban khác chặt chẽ"
+            }
+        },
+        "registerBtn": "Đăng ký ngay"
+    },
+
+    "customer": {
+        "title1": "Khách hàng",
+        "title2": "đang sử dụng dịch vụ",
+        "customer": "Đối tác",
+        "building": "Khách hàng",
+        "user": "Người sử dụng",
+        "registerBtn": "Trải nghiệm miễn phí"
+    },
+
+    "register": {
+        "title": "Trở thành đối tác của chúng tôi ngay hôm nay",
+        "webTitle1": "Trở thành đối tác của chúng tôi",
+        "webTitle2": "ngay hôm nay",
+        "form": {
+            "name": "Họ và tên",
+            "tax": "Mã số thuế",
+            "phone": "Số điện thoại",
+            "email": "Email",
+            "area": "Khu vực",
+            "room": "Tổng số căn hộ",
+            "content" : "Nội dung đề xuất với InfoPlus" 
+        },
+        "registerBtn": "Đăng ký ngay",
+        "note1": "Doanh nghiệp thông thường: Miễn phí 15 ngày dùng thử.",
+        "note2": "Kế toán dịch vụ: Miễn phí 30 ngày dùng thử.",
+        "note3": "Công ty Kế toán dịch vụ: Miễn phí năm đầu tiên sử dụng theo 1 khách hàng sử dụng dịch vụ."
+
+    },
+
+    "about": {
+        "mainAddress": "Trụ sở chính: Tầng 17, Tòa nhà IDMC, số 18 Tôn Thất Thuyết, Mỹ Đình 2, Nam Từ Liêm, Hà Nội, Việt Nam.", 
+        "office":"Văn phòng miền Nam: 163 Nguyễn Văn Trỗi, Phường 11, Quận Phú Nhuận, Tp.Hồ Chí Minh",
+        "email":"Email: infoerp@infoplusvn.com",
+        "address": "Tầng 17, Tòa nhà IDMC, số 18 Tôn Thất Thuyết, Mỹ Đình 2, Nam Từ Liêm, Hà Nội, Việt Nam.",
+        "contact": "salemarketing@infoplusvn.com",
+        "paper": "Giấy CNĐKKD: 0108154862 - Ngày cấp: 03/02/2018, được sửa đổi lần thứ 07 ngày 16/07/2021",
+        "issuedBy": "Phòng Đăng ký kinh doanh - Sở Kế hoạch và Đầu tư TP. Hà Nội",
+        "chatContent1": "Chúng tôi luôn online",
+        "chatContent2": "Xin vui lòng chat với chúng tôi!",
+        "aboutErp": "Về InfoERP"
+    },
+    "workshop": {
+        "markTitle":"Giới thiệu",
+        "title": "Giới thiệu về InfoPlus",
+        "contentFirst": "<strong> InfoPlus là doanh nghiệp BaaS (Banking-as-a-Service) Platform </strong> chuyên cung cấp dịch vụ và giải pháp tài chính ICT cần thiết cho các doanh nghiệp và cơ quan tài chính Đông Nam Á, trong đó lấy Việt Nam làm trọng điểm.",
+        "contentSecond": "Dựa trên nền tảng CNTT-TT tiên tiến trong lĩnh vực tài chính, chúng tôi luôn nỗ lực nhằm hỗ trợ các hoạt động kinh doanh của khách hàng một cách hiệu quả nhất. ",
+        "contentThree": "Từ cơ sở hạ tầng đến nền tảng API tài chính kỹ thuật số, InfoPlus đã và đang phấn đấu trở thành động lực dẫn đầu thị trường CNTT tài chính Việt Nam thông qua việc tiên phong trong lĩnh vực CNTT tài chính tiên tiến."
+    },
+    "error" : {
+        "empty": "Trường này không được để trống",
+        "invalid": "Giá trị không hợp lệ"
+    },
+    "homePage": "Trang chủ",
+    "send": {
+        "success": {
+            "title": "Chúc mừng bạn đã gửi đăng ký thành công!",
+            "subTitle": "Chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất"
+        },
+        "fail": {
+            "title": "Bạn gửi chưa thành công!",
+            "subTitle": "Trong quá trình gửi gặp lỗi nên chưa thành công. Mời bạn vui lòng thử lại.",
+            "registerAgain": "Đăng ký lại"
+        }
+    },
+    "accountingSoftware": {
+        "markTitle":"Giải pháp",
+        "title": "Giải pháp phần mềm kế toán <br/> dành cho mọi loại hình doanh nghiệp",
+        "regularBusinesses":"For regular businesses",
+        "regularBusinessesBold": "",
+        "audittingServiceBusiness":"For Accounting/Auditting Service Business",
+        "audittingServiceBusinessBold":"",
+        "regularBusinessesDetail":{
+            "1":"Bảo mật dữ liệu",
+            "2":"Công tác kế toán đồng bộ, chính xác hơn",
+            "3":"Kiểm soát dòng tài chính",
+            "4":"Đẩy nhanh quá trình sản xuất, cung cấp sản phẩm, dịch vụ",
+            "5":"Kiểm tra chất lượng, quản lý dự án",
+            "6":"Chuẩn hóa quy trình kinh doanh của doanh nghiệp",
+            "7":"Kiểm soát tồn kho",
+            "8":"Chuẩn hóa hoạt động nhân sự"
+        },
+        "subTitle1":"Với doanh nghiệp",
+        "subTitle2":"Với doanh nghiệp",
+        "subTitleBold1":"thông thường",
+        "subTitleBold2":"dịch vụ kế toán/ kiểm toán"
+    },
+    "discount":{
+        "titleFirstColumn":"Giảm",
+        "subTitleFirstColumn":"70%",
+        "detailFirstColumn":"Nghiệp vụ hóa đơn, chứng từ",
+        "titleSecondColumn":"Giảm",
+        "subTitleSecondColumn":"80%",
+        "detailSecondColumn":"Nghiệp vụ quản lý khách hàng, NCC",
+        "titleThirdColumn":"Giảm",
+        "subTitleThirdColumn":"60%",
+        "detailThirdColumn":"Nghiệp vụ thu chi tài chính",
+        "titleFourthColumn":"Giảm",
+        "subTitleFourthColumn":"90%",
+        "detailFourthColumn":"Nghiệp vụ lập và theo dõi báo cáo"
+    },
+    "partner":{
+        "markTitle":"Đối tác",
+        "title":"Đồng hành với đối tác <br/> của chúng tôi",
+        "businessPartner":"Đối tác doanh nghiệp",
+        "educatePartner":"Đối tác đào tạo",
+        "memberUnit":"Đơn vị thành viên"
+    },
+    "introduction":{
+        "detail":{
+            "1":"Phần mềm kế toán InfoERP cung cấp các giải pháp giúp Quản lý Kế toán - tài chính cho các Doanh nghiệp và các đơn vị tài chính, kế toán và kiểm toán tại Việt Nam.",
+            "2":"InfoERP là phần mềm kế toán trực tuyến, đa ngôn ngữ, được phát triển bởi công ty công nghệ đến từ Hàn Quốc chuyên về các sản phẩm quản lý tài chính, và đáp ứng được mọi loại hình doanh nghiệp: Thương mại, dịch vụ, xây lắp, sản xuất."
+        }
+    },
+    "placeholder": {
+        "name": "Nhập họ và tên",
+        "phone": "Nhập số điện thoại liên hệ",
+        "email": "Nhập địa chỉ email",
+        "area": "VD: Số 81 đường Trần Thái Tông, phường Dịch Vọng, quận Cầu Giấy, thành phố Hà Nội",
+        "numberRoom": "VD: 1000",
+        "tax": "Nhập mã số thuế",
+        "content" : "Nhập nội dung"
+    },
+    "qrCode":{
+        "sendFail": "Gửi không thành công",
+        "invalidIdCard": "Số CMT/CCCD/ Hộ chiếu không hợp lệ",
+        "invalidMobile": "Số điện thoại không hợp lệ"
+    }
+}

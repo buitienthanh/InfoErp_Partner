@@ -1,0 +1,83 @@
+label {
+  margin-bottom: 0 !important;
+  font-family: Nunito;
+}
+
+img {
+  width: 60%;
+}
+
+#app {
+  overflow: hidden;
+}
+
+
+.transitionBar {
+  background: #debc65;
+  border-radius: 8px;
+  width: 48px;
+  height: 8px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.labelTitle {
+  font-family: SVN-Gilroy-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+
+  color: #225dc0;
+}
+
+@font-face {
+  font-family: 'SVN-Gilroy-Bold';
+  src: local('SVN-Gilroy'), url(./fonts/SVNGilroy\ Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SVN-Gilroy-Light';
+  src: local('SVN-Gilroy'), url(./fonts/SVNGilroy\ Light.otf) format('opentype');
+}
+
+@media only screen and (min-width: 992px) {
+  .labelTitle {
+    font-family: SVN-Gilroy-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #225dc0;
+  }
+
+  .transitionBar {
+    width: 63px;
+  }
+
+  .mobile {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .web {
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .mobile {
+    visibility: visible;
+  }
+
+  .web {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    padding: 0 !important;
+  }
+}

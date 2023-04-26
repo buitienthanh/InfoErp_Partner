@@ -1,0 +1,241 @@
+{
+    "menu": {
+        "intro": "소개",
+        "video": "Video",
+        "advantage": "제품 안내",
+        "solution": "특장점",
+        "customer":  "고객 & 파트너"
+    },
+    
+    "lang": {
+        "vn": "Vietnamese",
+        "en": "English",
+        "kr": "Korean"
+    },
+    
+    "mainPage": {
+        "touch": "InfoERP",
+        "lifeUtil": "ERP 및 온라인 회계전문 관리 솔루션", 
+        "solution": "비용 절약 – 자동화 – 최대 업무 효율성 제공",
+        "registerBtn": "무료체험",
+        "registerPopupTitle": "제품 사용 등록",
+        "registerPopupBtn": "등록",
+        "registerPopupLoadingBtn" : "처리"
+    },
+    
+    "intro": {
+        "title" : "InfoERP",
+        "software": "A Supportive software for",
+        "for": "Management and residents",
+        "apartment": "Apartment management",
+        "apartmentDetail": "Infocity is the leading software in the application of technology in property operation management. Infocity intergrates various features in maximizing the support for specialized management operations and avoiding wasted human resources. Systematize the management of papers and reports to help clear and transparent management. Enhance real estate values ​​and increase profits.",
+        "complex": "Complex commercial management",
+        "complexDetail": "Infocity allows you to manage a complex commercial building to systematize a comprehensive operational management model from Contract management to General Accounting, contributing to the highest business efficiency.",
+        "cowork": "Coworking office management",
+        "coworkDetail": "Infocity supports operation and management of contracts, booking of serviced office services, various types from Share Office, Virtual Office and Meeting Space.",
+        "mini": "Inn and mini-apartment management",
+        "miniDetail": "InfoCity supports homeowners with operations and management of the chain of rooms/homestay remotely with simple operations on the system. Support tools to directly interact with tenants from the system to help reduce support staff as well as save administration time", 
+        "dorm": "Dorm management",
+        "dormDetail": "The solution helps the dormitory management board to statisticalize the list of dormitory rooms, list of students, manage guest registration in and out, monitor payment of fees, manage complaints and receive repair requests"
+    },
+    
+    "introVideo": {
+        "markTitle":"소개",
+        "title": "InfoERP에 대한 소개",
+        "registerBtn": "Sign up for our free demo"
+    },
+    
+    "advantage": {
+        "subTitle" : "",
+        "title": "회계 소프트웨어 측면의 InfoERP의 장점",
+        "mobileTitle1": "특장점",
+        "mobileTitle2": "Infocity",
+        "webTitle1": "2. 인터페이스는 친근하고 사용하기 쉽다",
+        "webTitle2": "friendly and easy-to-use", 
+        "webDetail": "간단한 조작과 처리해야 할 업무에 대해 업무 흐름대로 처리됩니다.  여러 기준 별로 사용자의 권한을 쉽게 설정하고 각 권한 등급 별로 회계 관리를 제공한다.",
+        "appManTitle1": "3. 펌뱅킹 및 전자 계산서 연동",
+        "appManTitle2": "with mobile app",
+        "appManSubTitle": "APP MANAGER",
+        "appManDetail": "각 계좌의 잔액과 거래 내역을 즉시 조회할 수 있습니다. 부기장을 예금 금액과 대조하고 예금 수금/지출 업무를 자동 결산합니다.  은행업무를 위해 은행에 방문하는 시간을 절약할 수 있습니다.",
+        "appManDetail2":"판매자로부터 전자 세금계산서를 제공받아 회계 InfoERP에 자동 회계 처리하는 기능으로 데이터 입력 및 처리에 드는 시간과 노력을 절약할 수 있습니다.",
+        "appManDetail3": "인기 있는 전자 인보이스 파트너와 통합: Vn 인보이스, M 인보이스, Easy 인보이스, VNPT 인보이스, FPT 인보이스, Mifi 인보이스, Ehoadon 인보이스 등 7개 이상을 서비스 중입니다. 향후 더 많은 인보이스를 서비스 예정입니다.",
+        "appResTitle1": "4. 비교검증하기 위한 공구",
+        "appResTitle2": "for App Resident",
+        "appResSubTitle": "APP RESIDENT",
+        "appResDetail": "회계사가 연간 재무제표를 작성할 때 시간과 노력을 절약할 수 있도록 장부 및 보고서를 자동 확인 및 비교하여 오류를 발견하고 안내하는 도구를 제공합니다.",
+        "registerBtn": "Sign up for our free demo",
+        "appLanguageTitle1": "5. 다국어 제공",
+        "appLanguageDetail": "5가지 다국어를 제공합니다. 베트남어, 한국어, 영어, 일본어, 중국어를 제공하며, 재로그인 필요 없이 실행 중인 화면에서 언어를 바로 변경할 수 있고 현재 국제 표준 및 경제 세계화의 흐름에 발맞추어 서비스됩니다. ",
+        "accountingBotTitle": "1. 자동 전표 처리 솔루션",
+        "accountingBotDetail": "InfoERP는 사용자가 회계 업무처리 시간을 최대한 단축할 수 있도록 지원하기 위해 모든 증빙 자료를 자동 입력하고, 모든 전표를 자동 처리하는 솔루션인  ''<strong>Automated Accounting BOT</strong>''솔루션을 제공합니다. 이 솔루션은 작업 시간을 단축하고 비용을 절감하며 기업의 업무 비용을 절약하기 위해 혁신적인 기능을 제공합니다."
+    },
+    "workshop": {
+        "markTitle":"소개",
+        "title": "InfoPlus에 대한 소개",
+        "emphasisContent":"InfoPlus는 기업 BaaS(Banking-as-a-Service) 플랫폼입니다.",
+        "contentFirst": "InfoPlus는 아시아에서 기업 및 금융 기관에ICT 서비스와 솔루션을 제공하는 BaaS (Banking-as-a-Service) 플랫폼을 서비스 중이며 베트남에 주요 조직이 있습니다.",
+        "contentSecond": "금융계의 첨단 ICT 기술을 바탕으로 사용고객들에게 최대한 효과적으로 지원하기 위해 노력하고 습니다.",
+        "contentThree": "인프라부터 다지털 금융 API플랫폼까지 InfoPlus는 최첨단 금용계 기술분야의 서비스 선점을 통해 베트남 금융계기술 시장을 선도하는 리더로 자리매김하고 있습니다."
+    },
+    "solution": {
+        "title": "InfoERP 도입 이유",
+        "mobileTitle1": "이점",
+        "mobileTitle2": "for your properties",
+        "subTitle": "",
+        "public" : {
+            "title": "이익",
+            "subTitle": "Co-branding subscription",
+            "detail": {
+                "1": "적시에 결정을 내리기 위해 비즈니스 <br/> 활동을 실시간 파악합니다",
+                "2": "자동화를 통해 운영 비용 절감, 생산성 향상, 수익 증대합니다",
+                "3": "Mobile app for management",
+                "4": "Free cloud infrastructure",
+                "5": "Co-branding with Infoplus",
+                "6": "Common source code"
+            },
+            "slogan": "Sign up for 3-month free trial"
+        },
+        "private" : {
+            "title": "비용절감",
+            "subTitle": "Separate branding subscription",
+            "detail": {
+                "1": "불필요한 지출을 줄이기 위한 철저한 <br/> 비용관리",
+                "2": "인프라 및 시스템 관리 인력에 대한 <br/> 투자가 필요 없어 투자 비용 절감합니다",
+                "3": "Mobile app for management",
+                "4": "Exclusive infrastructure",
+                "5": "Exclusive brandname", 
+                "6": "Exclusive source code"
+            },
+            "slogan": "Stand out with your own brandname"
+        },
+        "productivity" : {
+            "title":"업무 효율성",
+            "subTitle": "",
+            "detail": {
+                "1": "작업을 완전히 자동화하고 수동 작업 <br/> 시간을 줄입니다",
+                "2": "규정이 명확하고 다른 부서와 밀접하게 연결되어 있습니다"
+            }
+        },
+        "registerBtn": "Resgister"
+    },
+    
+    "customer": {
+        "title1": "고객",
+        "title2": "서비스 사용중 고객",
+        "customer": "파트너",
+        "building": "고객",
+        "user": "사용자",
+        "registerBtn": "소프트웨어 무료  체험"
+    },
+    
+    "register": {
+        "title": "Get in touch with our experts today for the most suitable solution and experiencing our software", 
+        "webTitle1": "상품 무상 체험 등록하기",
+        "webTitle2": "",
+        "form": {
+            "name": "성함",
+            "tax": "사업자등록번호",
+            "phone": "연락처",
+            "email": "이메일",
+            "area": "Area",
+            "room": "Number of apartment units"
+        },
+        "registerBtn": "등록",
+        "note1": "일반기업: 15일 무료사용.",
+        "note2": "회계법인: 30일 무료사용.",
+        "note3": "회계법인: 서비스 사용 고객에게 1년 무료사용."
+    },
+    
+    "about": {
+        "mainAddress": "하노이, Nam Tu Liem군 My Dinh 2, Ton That Thuyet로 18호, IDMC빌딩 17층", 
+        "office":"남부 사무실: 163 Nguyen Van Troi, Ward 11, Phu Nhuan District, HCMC",
+        "email":"Email: infoerp@infoplusvn.com",
+        "address": "하노이, Nam Tu Liem군 My Dinh 2, Ton That Thuyet로 18호, IDMC빌딩 17층",
+        "contact": "salemarketing@infoplusvn.com",
+        "paper": "사업자등록증 : 0108154862 - 발급일자 : 2018.03.02, 2021.07.16 7차 개정",
+        "issuedBy": "사업자 등록 사무소 - 하노이시 투자&계획 부. ",
+        "chatContent1": "We are always online!", 
+        "chatContent2": "Chat with us",
+        "aboutErp": "InfoERP 소개"
+    },   
+    
+    "error" : {
+        "empty": "Field is required",
+        "invalid": "Invalid value"
+    },
+
+    "homePage": "Homepage",
+
+    "send": {
+        "success": {
+            "title": "Registration Sucess!",
+            "subTitle": "We will be contacting you soon!"
+        },
+        "fail": {
+            "title": "Registration Failed",
+            "subTitle": "There was an error during the process. Please try again",
+            "registerAgain": "Register Again"
+        }
+    },
+    "accountingSoftware": {
+        "markTitle":"솔루션",
+        "title": "다양한 산업별 고객을 위한 ERP 및 회계 소프트웨어 솔루션",
+        "regularBusinesses":"For Regular Businesses",
+        "audittingServiceBusiness":"For Accounting/Auditting Service Business",
+        "regularBusinessesDetail":{
+            "1":"데이터 보안",
+            "2":"동기화 및 정확한 회계 업무",
+            "3":"재무 흐름 제어",
+            "4":"상품 및 서비스의 생산 및 공급 속도 향상",
+            "5":"프로젝트 관리, 품질검사",
+            "6":"기업의 비즈니스 프로세스 표준화",
+            "7":"재고 관리의 정확성",
+            "8":"인사관리 활동 표준화"
+        },
+        "subTitle1":"일반 업체의",
+        "subTitle2":"회계법인의",
+        "subTitleBold1":"개선 효과",
+        "subTitleBold2":"기대 효과"
+        
+    },
+    "discount":{
+        "titleFirstColumn":"70%",
+        "subTitleFirstColumn":"감소",
+        "detailFirstColumn":"계산서, 전표 업무",
+        "titleSecondColumn":"80%",
+        "subTitleSecondColumn":"감소",
+        "detailSecondColumn":"고객관리 및 고급처 관리 업무",
+        "titleThirdColumn":"60%",
+        "subTitleThirdColumn":"감소",
+        "detailThirdColumn":"금융수금 업무",
+        "titleFourthColumn":"90% ",
+        "subTitleFourthColumn":"감소",
+        "detailFourthColumn":"보고서 작성 및 관리 업무"
+    },
+    "partner":{
+        "markTitle":"파트너",
+        "title":"파트너",
+        "businessPartner":"업체 파트너",
+        "educatePartner":"교육 파트너",
+        "memberUnit":"구성원 단위"
+    },
+    "introduction":{
+        "detail":{
+            "1":"InfoERP 회계 소프트웨어는 베트남에서 회계 - 금융기관 - 회계감사법인 및 일반업체에게 ERP 및 회계 관리 솔루션을 제공한다.",
+            "2":"InfoERP 는 대한민국의 선진 IT기술을 바탕으로 온라인 다국어 소프트웨어로 상업, 용역, 건설, 생산 등 다양한 산업의 유형 비즈니스를 지원 합니다."
+        }
+    },
+    "placeholder": {
+        "name": "성과 이름 입력",
+        "phone": "연락처 전화번호 입력",
+        "email": "이메일 주소 입력",
+        "area": "No. 81 Tran Thai Tong, Dich Vong Ward, Cau Giay District, Hanoi, Vietnam",
+        "numberRoom": "1000",
+        "tax": "사업자번호 입력"
+    },
+    "qrCode":{
+        "sendFail": "Send unsuccessful",
+        "invalidIdCard": "Invalid data at ID Card",
+        "invalidMobile": "Invalid data at Mobile"
+    }
+}

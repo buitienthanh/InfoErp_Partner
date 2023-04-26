@@ -1,0 +1,104 @@
+.solCard {
+  background: #ffffff;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  height: 402px;
+  max-width: 370px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #225DC0;
+}
+#cardLeft {
+  margin-left: auto;
+}
+
+#cardRight {
+  margin-right: auto;
+}
+
+.solLineSeparate {
+  border: 1px solid #eaeef6;
+  width: 100%;
+}
+
+.solImgCard {
+  width: 118px;
+  margin-bottom: 21px;
+}
+
+.solTitleCard {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.solSubTitleCard {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #a5a5a5;
+}
+
+.solButton {
+  background: #ffffff;
+  /* Yeallow */
+
+  border: 1px solid #debc65;
+  box-sizing: border-box;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+}
+
+.solButtonLabel {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Yeallow */
+
+  color: #debc65;
+}
+
+.solLastLine {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5c5c5c;
+}
+
+.solCard:hover{
+  border: 1px solid #225DC0;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 20px #ebe5d5;
+  border-radius: 16px;
+}
+
+.divSolLastLine {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+@media only screen and (max-width: 991px) {
+  #cardLeft {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  #cardRight {
+    margin: auto
+  }
+}

@@ -1,0 +1,90 @@
+
+  #workshopDiv {
+    position: relative;
+    margin-top: 100px;
+  }
+  
+  #workshopDiv .backgroundTitle{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: -45px;
+    font-family: 'SVN-Gilroy-Bold';
+    font-style: normal;
+    font-weight: 999;
+    font-size: 96px;
+    line-height: 101px;
+    align-items: center;
+    text-align: center;
+    color: #EDEDED;
+  }
+
+  .ws-container{
+    margin-top: 82px;
+  }
+
+  .col-img-workshop {
+    position: relative;
+    background: linear-gradient(to left, rgb(239, 242, 252) 50%, white 50%);
+  }
+  
+  .img-workshop { 
+    width:457.64px;
+    height:265.84px;
+    margin-right:26px;
+    position:absolute;
+    top:-50px;
+    left:0px;
+  }
+
+  .col-img-content {
+    background:#EFF2FC;
+    z-index: -1;
+    padding:40px 0px 20px 0px;
+  }
+
+  @media only screen and (max-width: 991px) {
+    #workshopDiv .backgroundTitle{
+      font-size: 68px;
+      top:-5px;
+    }
+
+    .img-workshop {
+      position :unset;
+    }
+
+    #workshopDiv,.col-img-workshop {
+      background: rgb(239, 242, 252);
+      z-index: 1;
+    }
+  
+    #workshopDiv {
+      padding-top: 42.5px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+  
+    #workshopDiv {
+      padding-top: 42.5px !important;
+    }
+  }
+  
+  #workshopDiv {
+    text-align: center;
+    /* padding-top: 85px; */
+    padding-bottom: 40px;
+  }
+  
+  .workshop-content{
+    padding: 0px 30px 0px 30px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    text-align: justify;
+
+color: #222222;
+  }

@@ -1,0 +1,18 @@
+.step {
+    font-family: SVN-Gilroy;
+    font-weight:bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    color: #152C7C;
+}
+
+.step-title {
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;
+}

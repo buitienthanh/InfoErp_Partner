@@ -1,0 +1,51 @@
+.card-header {
+  background-color: #ffffff !important;
+  padding: 10px;
+}
+
+.background-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.titleCard {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: left;
+  color: #383856;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  margin-left: 10px;
+}
+
+.detailCard {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: justify;
+
+  color: #4e4e4e;
+}
+
+.introArrowDiv {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#introDivHeader #introArrowOpen {
+  transform: rotate(180deg);
+}
+
+
+#introDivHeader #introArrowClose {
+  transform: rotate(0deg);
+}

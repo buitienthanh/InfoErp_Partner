@@ -1,0 +1,62 @@
+#chatIconDiv {
+  width: 56px;
+  height: 56px;
+  margin-top: auto;
+}
+
+#chatDiv {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 60px;
+}
+
+#chatTextDiv {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Gray 3 */
+
+  color: #5c5c5c;
+}
+
+@media only screen and (max-width: 991px) {
+  #chatDiv {
+      box-shadow: none;
+      border: none;
+      background-color: transparent;
+  }
+
+  #chatIconDiv {
+      width: 70px;
+      height: 70px;
+      margin-left: auto;
+      margin-top: -20px;
+  }
+
+  #chatIcon {
+      width: 70px;
+      height: 70px;
+  }
+
+  #chatTextDiv {
+      visibility: hidden;
+      height: 0;
+      width: 0;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  #chatDiv {
+      display: flex;
+      width: 280px;
+  }
+}
+

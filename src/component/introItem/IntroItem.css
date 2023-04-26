@@ -1,0 +1,28 @@
+.divIcon {
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+}
+
+.introItemDiv {
+  max-width: 300px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  position: relative;
+  text-align: justify;
+
+  color: #4e4e4e;
+}
+
+.introItemTitleDiv {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  color: #383856;
+  margin-top: 20px;
+  margin-bottom: 20px
+}

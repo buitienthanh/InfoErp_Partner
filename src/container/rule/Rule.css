@@ -1,0 +1,16 @@
+.ruleItemDiv {
+    background-color: #EDF3FB;
+    display: flex; 
+    flex-direction: column;
+}
+
+.ruleItemDiv img {
+    width: auto;
+}
+
+@media only screen and (max-width: 991px) {
+    .ruleItemDiv {
+        background-color: white;
+    }
+
+}

@@ -1,0 +1,60 @@
+@media only screen and (max-width: 991px) {
+  #buttonMainPage {
+    position: absolute;
+    cursor: pointer;
+    bottom: -265px;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    max-width: 287px;
+   
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #buttonMainPage {
+    margin-left: 0%;
+    /* margin-top: 11%; */
+    width: 285px;
+    cursor: pointer;
+  }
+}
+
+#btnVideo {
+  margin-top: 20px;
+  box-shadow: 0px 8px 20px rgba(49, 49, 50, 0.1);
+}
+
+#btnAdv {
+  box-shadow: 0px 8px 20px rgba(49, 49, 50, 0.1);
+}
+
+#btnCard {
+  box-shadow: none;
+  border: 1px solid #debc65;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+#btnCard .registerLabel {
+  color: #debc65;
+}
+
+#btnCard:hover {
+  background: #debc65;
+  border-radius: 12px;
+}
+
+#btnCard:hover .registerLabel {
+  color: #ffffff;
+}
+
+#btnCust {
+    background: #54D19C;
+    box-shadow: 0px 8px 20px #EDE5D3;
+    border-radius: 16px;
+    margin-left: 0;
+    margin-top: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,485 @@
+#menuContainer {
+  padding: 5px 20px 5px 20px;
+  height: 94px;
+  margin: auto;
+  z-index: 2;
+  background-color: #FFFFFF;
+}
+
+#menuContainer .container{
+  max-width: 1234px;
+}
+
+#menuContainer .navbar-collapse{
+  flex-grow: unset;
+}
+
+.phoneNumber{
+  font-size: 20px;
+  font-weight: 700;
+  color: #80EEFF;
+  cursor: pointer;
+  line-height: 35px;
+  position: relative;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.phoneNumber:hover{
+  color: #80EEFF;
+  text-decoration: none;
+}
+
+#divLanguage {
+  width: 142px;
+  height: 30px;
+  color: #152C7C;
+  display: flex;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.divLangName label{
+  cursor: pointer;
+}
+
+#wrapperPhone{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+#wrapperLanguage {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 10px;
+  border: 1px solid #113f88;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: -6px;
+}
+
+#menuLine {
+  border: 1px solid #ffffff;
+  opacity: 0.1;
+}
+
+#selectorLanguage {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #113f88;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.optionLanguage {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+
+
+.linkLabel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: 'SVN-Gilroy-Light';
+  color: #ffffff;
+  margin: 0 30px;
+}
+
+#imgLogo {
+  content: url("../../img/Logo_ERP.png");
+  width: 167px;
+}
+
+#homePage #wrapperLanguage {
+  border: 1px solid #152C7C;
+}
+
+#homePage { 
+  background-color: #F9F9F9;
+}
+
+@media only screen and (min-width: 1366px) {
+  #menuLine {
+    visibility: hidden;
+  }
+
+  #imgLogo {
+    content: url("../../img/Logo_ERP.png");
+  }
+}
+
+.divLangName {
+  margin-top: 5px;
+  font-family: 'SVN-Gilroy-Light';
+  margin-bottom: auto;
+}
+
+@media  only screen and (max-width:768px) {
+
+  
+    .titleBelow {
+      font-size: 26px !important;
+    }
+
+    .titleBelowBelow {
+      font-style: normal !important;
+      font-weight: 700 !important;
+      font-size: 11px !important;
+      line-height: 16px !important;
+    }
+
+    .mobile .explain {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    #colorBackDiv {
+      /* background-image: url("../../img/mainPage/background_mobile.png") !important; */
+      background-color: #F9F9F9;
+      height: 100vh !important;
+    }
+
+    .info-erp {
+      font-style: normal;
+      display: block !important;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #FFFFFF;
+      margin-bottom: 25px;
+    }
+
+    .img-zalo, .img-youtube , .img-facebook {
+      position: absolute;
+    }
+
+    .img-facebook {
+      left: 35px;
+    }
+
+    .img-youtube {
+      left: 100px;
+    }
+
+    .img-zalo {
+      left: 165px;
+    }
+
+    .mobile .govDiv, .mobile .social {
+      margin: auto;
+      width: 50%;
+    }
+
+    .mobile .social {
+      position: relative;
+      margin: auto;
+      width: 50%;
+      height: 50px;
+      margin-top: 40px;
+    }
+
+    .govDiv {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      height: 50px;
+    }
+
+    .footer{
+      background-image: url("../../img/about/background.png") !important;
+    }
+
+    .white-space {
+      height: 60px !important;
+    }
+
+    #btnRegister{
+      border-radius: 8px !important;
+      width: 100% !important;
+      margin-top: 25px !important;
+    }
+
+    #workshopDiv {
+      padding-bottom: unset !important;
+    }
+
+    .regTitle {
+      font-size: 24px !important;
+    }
+
+    .img-workshop {
+      border-radius: 12px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .ws-container {
+      margin-top: 20px !important;
+    }
+
+    .trainPartner1 {
+      width: 132px !important;
+      height: unset !important;
+      margin-right: 40px;
+    }
+
+    .trainPartner2 {
+      width: 66px !important;
+      height: unset !important;
+      margin-right: 40px;
+    }
+
+    .trainPartner3 {
+      width: 61px !important;
+      height: unset !important;
+    }
+
+    .businessPartner1 {
+      width: 82px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner2 {
+      width: 107px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner3 {
+      width: 114px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner4 {
+      width: 114px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner5 {
+      width: 73px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner6 {
+      width: 104px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner9 {
+      width: 93px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner7 {
+      width: 133px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner8 {
+      width: 75px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner14 {
+      width: 83px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner15 {
+      width: 104px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner13 {
+      width: 93px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner11 {
+      width: 103px !important;
+      height: unset !important;
+      margin-right: 17px !important;
+    }
+
+    .businessPartner12 {
+      width: 108px !important;
+      height: unset !important;
+      margin-right: 12px !important;
+    }
+
+    .bussiness-sub-title {
+      margin: 12px 0px 12px 0px;
+      text-align: center;
+    }
+
+    #workshopDiv {
+      margin-top: 30px !important;
+    }
+
+    .custContentLabel{
+      color: #4E4E4E !important;
+    }
+
+    .custNumberLabel {
+      color: #54D19C !important;
+    }
+
+    .tick {
+      margin: 20px 0px 20px 0px !important;
+    }
+
+    .advDetailContent {
+      margin: 20px 0px 20px 0px;
+    }
+
+    .advTitleLabel, .advDetailContent {
+      text-align: justify !important;
+    }
+
+    .labelTitle {
+      font-size: 19px !important;
+    }
+
+    .discount-group {
+      margin: unset !important;
+      background: #D6FAFF !important;
+      padding: 30px 0px 0px 10px !important;
+      margin-top: 50px !important;
+    }
+
+    .discount {
+      text-align: left !important;
+    }
+
+    .discount-content {
+      font-size: 16px !important;
+      text-align: left !important;
+    }
+
+    #menuContainer .container{
+      max-width: 1234px;
+    }
+    #accountingBot {
+      width: 340px !important;
+      height: 98px;
+      margin-top: 30px;
+    }
+    #govDiv {
+      bottom: -96px;
+    }
+    #govDiv img{
+      width: 150px !important;
+      height: 60px !important;
+    }
+    #advantage {
+      margin-bottom: 0px !important;
+    }
+    .img-workshop {
+      position: unset !important;
+      width: inherit !important;
+    }
+
+    #wrapperPhone {
+      display: none;
+    }
+
+    #introduction .h2, #introduction .container {
+      display: none;
+    }
+    
+    #buttonMainPage{
+      bottom: -68px !important;
+    }
+
+
+}
+  
+@media only screen and  (min-width:769px) and (max-width:1024px) {
+    #menuContainer .container{
+      max-width: 1234px;
+    }
+}
+ 
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+   
+}
+
+@media  only screen and (min-width:1281px) and (max-width:1366px) {
+    #menuContainer .container{
+      max-width: 1100px;
+    }
+    .linkLabel {
+      margin:0 18px 0px 0px;
+    }
+
+    #buttonMainPage {
+      margin-left: 38px !important;
+      margin-top: 30px;
+      width: 232px !important;
+    }
+
+    #colTitleLabel {
+      margin: 0px auto !important;
+      padding: 0;
+      padding: 40px 148px !important;
+    }
+
+    .registerLabel {
+      font-size: 12px !important;;
+    }
+
+    .registerButton{
+      height: 40px !important;
+    }
+
+    .titleBelow{
+      font-size: 30px !important;
+    }
+
+    .titleBelowBelow{
+      font-size: 18px !important;
+    }
+
+    .linkLabel {
+      font-size: 15px !important;
+    }
+    
+    .phoneNumber {
+      font-size: 18px !important;
+    }
+}
+
+@media  only screen and (min-width:1367px) { 
+  #buttonMainPage {
+      margin-top: 70px;
+    }
+
+  #colTitleLabel{
+    margin: 80px auto !important;
+  }
+}

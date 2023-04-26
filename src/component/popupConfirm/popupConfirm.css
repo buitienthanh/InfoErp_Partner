@@ -1,0 +1,7 @@
+.modal-header {
+    flex-direction: column-reverse;
+}
+
+#modalSelected .MuiFormControl-root {
+    width: 100%;
+}

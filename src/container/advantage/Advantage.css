@@ -1,0 +1,54 @@
+#advLabelWeb {
+    visibility: visible;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.advLabelMobile {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+#advantage{
+    margin-top: 95px;
+    text-align: center;
+    margin-bottom: -145px;
+}
+
+#advantage .backgroundTitle{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: -46px;
+    font-family: 'SVN-Gilroy-Bold';
+    font-style: normal;
+    font-weight: 999;
+    font-size: 96px;
+    line-height: 101px;
+    align-items: center;
+    text-align: center;
+    color: #EDEDED;
+}
+
+@media only screen and (max-width: 991px) {
+    #advLabelWeb {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .advLabelMobile {
+        visibility: visible;
+        width: 100%;
+        height: fit-content;
+    }
+    #advantage{
+        margin-top: 0px;
+    }
+
+    #advantage .backgroundTitle{
+        font-size: 68px;
+        top:-50px;
+    }
+}

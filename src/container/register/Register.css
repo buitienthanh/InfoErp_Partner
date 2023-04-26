@@ -1,0 +1,110 @@
+.regTitle {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 24px;
+  /* or 120% */
+  line-height: 40px;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  padding: 25px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+#regBackground {
+  position: absolute;
+  /* z-index: -1; */
+  /* margin-top: 300px; */
+  height: 720px;
+  width: 100%;
+  left: 0;
+  background-color: #001251;
+}
+
+@media only screen and (min-width: 992px) {
+  .regTitle {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+#divRule {
+  max-width: 1168px;
+  display: flex;
+  min-height: 43px;
+  margin: auto;
+}
+
+.divRuleItem {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 5px;
+  display: flex;
+}
+
+.divRuleItem:hover {
+  color: #225dc0;
+}
+
+.separateRule {
+  border: solid 1px silver;
+  height: 15px;
+  width: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  #divRule {
+    flex-direction: column;
+    min-height: 0px;
+  }
+
+  .separateRule {
+    height: 0;
+    border: none;
+  }
+
+  .bulletPoint {
+    width: 4.5px;
+    height: 4.5px;
+    background: #808284;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #divRule {
+    flex-direction: column;
+    min-height: 100px;
+  }
+
+  .separateRule {
+    height: 0;
+    border: none;
+  }
+
+  .bulletPoint {
+    width: 4px;
+    height: 4px;
+    background: #808284;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+  }
+}
+

@@ -1,0 +1,23 @@
+.custLogoDiv {
+  background: #ffffff;
+  border: 1px solid #DDE5EF;
+  border-radius: 12px;
+  max-width: 343px;
+  min-height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 991px) {
+  .custLogoDiv {
+    border: none;
+  }
+}
+
+.custLogoImg {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}

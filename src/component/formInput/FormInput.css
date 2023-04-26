@@ -1,0 +1,180 @@
+.regFormLabel {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  /* or 100% */
+  letter-spacing: 0.2px;
+  /* White */
+
+  color: #ffffff;
+}
+
+.regFormInput {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  /* border-radius: 6px; */
+  width: 100%;
+  color: #363e49;
+  border: none;
+  height: 40px;
+  padding: 5px;
+  font-weight: 700;
+  padding: 0px 12px;
+  font-size: 14px;
+}
+
+.regFormInput:focus-visible {
+  outline: none;
+}
+
+.layoutInput {
+  margin: auto;
+}
+
+input::placeholder {
+  font-family: 'SVN-Gilroy-Light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #8A8A8A;
+}
+
+#modalRegister input::placeholder {
+  color: #8A8A8A;
+  font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: justify;
+letter-spacing: -0.02em;
+}
+
+#btnRegister{
+  border-color: rgb(84, 209, 156);
+  background-color: rgb(84, 209, 156);
+  border-radius: 0px;
+}
+
+#modalRegister #btnRegister{
+  background: #152C7C;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+/* identical to box height, or 112% */
+border-color:unset;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+
+/* White */
+
+}
+
+#modalRegister #btnRegister .registerLabel{
+ color: #FFFFFF;
+}
+
+@media only screen and (max-width: 991px) {
+  .regFormInput {
+    width: 295px;
+  }
+}
+
+@media only screen and (max-width: 328px) {
+  .regFormInput {
+    width: 100%;
+  }
+
+  .webInputLeft .layoutInput {
+    width: 100%;
+  }
+
+  .webInputRight .layoutInput {
+    width: 100%;
+  }
+
+  .layoutInput {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .regFormInput {
+    width: 429px;
+  }
+
+  .webInputLeft .regFormInput {
+    width: 200px;
+    min-width: 0;
+  }
+
+  .webInputRight .regFormInput {
+    width: 200px;
+    min-width: 0;
+  }
+
+  .webInputLeft {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .webInputRight {
+    width: 204px;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+
+  .webInputLeft .layoutInput {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+#modalRegister .regFormLabel {
+  font-family: 'SVN-Gilroy-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  /* or 100% */
+  color: #000000;
+  letter-spacing: 0.2px;
+  /* Gray 3 */
+
+  color: #000000;
+}
+
+#modalRegister .regFormInput {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  color: #363e49;
+}
+
+#modalRegister .errorInput {
+  border: solid 1px #d93025;
+}
+
+#modalRegister .normalInput {
+  border: none;
+}
+
+#errorLayout {
+  border-radius: 6px;
+}
+
+.errorMes {
+  font-size: 12px;
+  color: red;
+}

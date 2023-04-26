@@ -1,0 +1,169 @@
+#companyLabel {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 65px;
+  /* or 92% */
+
+  text-align: center;
+
+  color: #225dc0;
+}
+
+#titleIntroLabel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.5px;
+  /* identical to box height, or 250% */
+
+  text-align: center;
+
+  /* Blue shadow 1 */
+
+  color: #383856;
+}
+
+#titleIntroUpperLabel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  /* or 111% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Blue shadow 1 */
+
+  color: #383856;
+}
+
+#introLabelDiv {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.introduction-content{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: justify;
+
+  color: #000000;
+
+}
+
+@media only screen and (min-width: 992px) {
+  #introLabelDiv {
+    background: #225dc0;
+    border-radius: 16px;
+    color: #ffffff;
+    height: 280px;
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #companyLabel {
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 48px;
+    /* or 71% */
+    color: #ffffff;
+  }
+
+  #titleIntroLabel {
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  #titleIntroUpperLabel {
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  #companyDiv {
+    margin: auto;
+    line-height: 30px;
+  }
+
+  .collapsibleCard {
+    height: 15px;
+    visibility: hidden;
+  }
+
+  .introItemDiv {
+    visibility: visible;
+  }
+
+  .img-intro {
+    width: 860px;
+  }
+}
+
+#introImgBack {
+  position: absolute;
+  z-index: -1;
+  height: 1230px;
+  left: 0;
+}
+
+#introDiv {
+  padding-top: 70px;
+}
+
+#tabBelow {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .img-intro {
+    width: 373px !important;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  .introItemDiv {
+    height: 0;
+    visibility: hidden;
+  }
+
+  #introDiv {
+    padding-top: 10px;
+  }
+
+  .collapsibleCard {
+    visibility: visible;
+  }
+
+  #tabBelow {
+    margin-top: 0;
+  }
+
+  #introBackground {
+    position: absolute; 
+    z-index: -1;
+    background-color: #EDF3FB;
+    width: 100%;
+    left: 0;
+    height: 950px;
+  }
+
+  #introImgBack {
+    display: none;
+  }
+
+  .img-intro {
+    width: 430px;
+  }
+}
+
+
