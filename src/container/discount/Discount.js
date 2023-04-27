@@ -8,9 +8,9 @@ import step_6 from '../../img/discount/Step_6.png';
 import line_break from '../../img/Line_break.png';
 import './Discount.css'
 
-const Discount = () => {
+const Discount = (props) => {
     return (
-        <div style={{margin:'6% 0'}}>
+        <div style={{margin:'108px 0'}} id='videoDiv' ref={props.refer}>
             <img style={{ width: '114px', height: '8px', display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src={line_break} alt="Girl in a jacket" />
             <p style={{ textAlign: 'center', fontSize: '60px', color: '#152C7C', fontWeight: 'bold', fontFamily: 'SVN-Gilroy',marginTop:'24px' }}>Quy trình nhận ưu đãi/ chiết khấu</p>
             <div style={{ marginTop: '36px'}}>

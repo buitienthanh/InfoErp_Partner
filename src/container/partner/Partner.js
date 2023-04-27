@@ -3,24 +3,24 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './Partner.css'
 import { useTranslation } from 'react-i18next';
 import businessPartner1 from '../../img/partner/business_partner_1.png';
-import businessPartner2 from '../../img/partner/business_partner_2.png';
-import businessPartner3 from '../../img/partner/business_partner_3.png';
-import businessPartner4 from '../../img/partner/business_partner_4.png';
-import businessPartner5 from '../../img/partner/business_partner_5.png';
-import businessPartner6 from '../../img/partner/business_partner_6.png';
-import businessPartner7 from '../../img/partner/business_partner_7.png';
+import businessPartner2 from '../../img/partner/business_partner_2-removebg-preview.png';
+import businessPartner3 from '../../img/partner/business_partner_3-removebg-preview.png';
+import businessPartner4 from '../../img/partner/business_partner_4-removebg-preview.png';
+import businessPartner5 from '../../img/partner/business_partner_5-removebg-preview.png';
+import businessPartner6 from '../../img/partner/business_partner_6-removebg-preview.png';
+import businessPartner7 from '../../img/partner/business_partner_7-removebg-preview.png';
 import businessPartner8 from '../../img/partner/business_partner_8.png';
-import businessPartner9 from '../../img/partner/business_partner_9.png';
+import businessPartner9 from '../../img/partner/business_partner_9-removebg-preview.png';
 import businessPartner10 from '../../img/partner/business_partner_10.png';
-import businessPartner11 from '../../img/partner/business_partner_11.png';
+import businessPartner11 from '../../img/partner/business_partner_11-removebg-preview.png';
 import businessPartner12 from '../../img/partner/business_partner_12.png';
 import businessPartner13 from '../../img/partner/business_partner_13.png';
-import businessPartner14 from '../../img/partner/business_partner_14.png';
-import businessPartner15 from '../../img/partner/business_partner_15.png';
-import businessPartner16 from '../../img/partner/business_partner_16.png'; 
-import businessPartner17 from '../../img/partner/vnpt_invoice.jpg'; 
-import businessPartner18 from '../../img/partner/LOGO_MIFI.png'; 
-import businessPartner19 from '../../img/partner/genCRM.jpg'; 
+import businessPartner14 from '../../img/partner/business_partner_14-removebg-preview.png';
+import businessPartner15 from '../../img/partner/business_partner_15-removebg-preview.png';
+import businessPartner16 from '../../img/partner/business_partner_16-removebg-preview.png'; 
+import businessPartner17 from '../../img/partner/vnpt_invoice-removebg-preview.png'; 
+import businessPartner18 from '../../img/partner/LOGO_MIFI-removebg-preview.png'; 
+import businessPartner19 from '../../img/partner/genCRM-removebg-preview.png'; 
 import trainPartner1 from '../../img/partner/train_partner_1.png';
 import trainPartner2 from '../../img/partner/train_partner_2.png';
 import trainPartner3 from '../../img/partner/train_partner_3.png';
@@ -28,11 +28,11 @@ import memberUnit from '../../img/partner/member_Unit.png';
 import RenderHTML from '../../component/renderHTML';
 import line_break from '../../img/Line_break.png';
 
-export default function Partner() {
+export default function Partner(props) {
     const { t, } = useTranslation();
     return (
      <>
-     <Container id="partner">
+     <Container id="partner" ref={props.refer}>
          <Row>
              <Col>
                 <img style={{ width: '114px', height: '8px', display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src={line_break} alt="line_break.png" />

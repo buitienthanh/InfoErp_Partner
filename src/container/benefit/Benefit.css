@@ -13,6 +13,7 @@
     font-weight: bold;
     margin-top: 24px;
     font-family: SVN-Gilroy;
+    line-height: 63px;
 }
 
 .benefit-subtitle{
@@ -21,6 +22,8 @@
     color:#525252;
     font-family:SVN-Gilroy;
     text-align:center;
+    margin-top: 34px;
+    margin-bottom: 34px;
 }
 
 .line-break {

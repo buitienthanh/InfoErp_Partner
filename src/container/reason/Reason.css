@@ -15,8 +15,27 @@
     font-weight: 700;
     height: 56px;
     line-height: 40px;
+    border: 1px solid !important;
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
     border-color: #152C7C !important;
+}
+
+.highline {
+    color: #54D19C;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.li_line {
+    width: 8.71px;
+    position: absolute;
+    margin-right: 10px;
+    left: -25px;
+    top: 5px;
+}
+
+.param_partner{
+    position: relative;
 }

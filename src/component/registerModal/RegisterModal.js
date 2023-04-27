@@ -2,7 +2,7 @@ import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import closeBtn from '../../img/closeBtn.png'
 import './RegisterModal.css'
-import RegisterFormClass from '../registerForm/RegisterFormClass';
+import RegisterFormPopupClass from '../registerForm/RegisterFormPopupClass';
 
 export default function RegisterModal(props) {
     return (
@@ -12,7 +12,7 @@ export default function RegisterModal(props) {
                     <Button id='btnClose' onClick={props.onClose}>
                         <img src={closeBtn} alt=''/>
                     </Button>
-                    <RegisterFormClass id={'modalRegister'} onCloseModal={props.onClose} isModal={true}/>
+                    <RegisterFormPopupClass id={'modalRegister'} onCloseModal={props.onClose} isModal={true}/>
                 </Modal.Body>
             </Modal>
         </div>

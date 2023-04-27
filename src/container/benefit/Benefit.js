@@ -8,13 +8,13 @@ import vector_6 from '../../img/benefit/Vector_6.png';
 import line_break from '../../img/Line_break.png';
 import './Benefit.css'
 
-const Benefit = () => {
+const Benefit = (props) => {
     return (
-        <div>
+        <div id="advantage" ref={props.refer}>
                 <img className='line-break' src={line_break} alt="Girl in a jacket"/>
                 <p className='benefit-title'>Bạn sẽ nhận được gì?</p>
-                <p className='benefit-subtitle'>Tin tưởng trở thành đối tác tiềm năng của InfoERP với mức ưu đãi hấp dẫn, hệ thống hỗ trợ nghiệp vụ kế toán - Marketing miễn phí, tận tâm.</p>
-                <div style={{marginTop:'36px'}}>
+                <p className='benefit-subtitle'>Tin tưởng trở thành đối tác tiềm năng của InfoERP với mức ưu đãi hấp dẫn, hệ thống hỗ trợ <br/> nghiệp vụ kế toán - Marketing miễn phí, tận tâm.</p>
+                <div>
                 <Row>
                     <Col>
                         <div><img className='benefit-img' src={vector_1} alt="vector_1.png"/></div>
@@ -38,10 +38,10 @@ const Benefit = () => {
                         <div><img className='benefit-img' src={vector_5} alt="vector_5.png"/></div>
                         <p style={{textAlign:'center',marginTop:'24px'}}>5. Kết nối với hệ sinh thái đối tác của InfoPlus trong mảng tài chính - ngân hàng.</p>
                     </Col>
-                    <Col>
+                    {/* <Col>
                         <div><img className='benefit-img' src={vector_6} alt="vector6.png"/></div>
                         <p style={{textAlign:'center',marginTop:'24px'}}>6. Lorem ipsum dolor sit amet consectetur. Duis urna porttitor tempus orci diam amet. Mauris.</p>
-                    </Col>
+                    </Col> */}
                 </Row>
                 </div>                
         </div>

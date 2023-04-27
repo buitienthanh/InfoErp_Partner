@@ -3,9 +3,9 @@ import { Container,Row, Col } from 'react-bootstrap';
 import introduction_vn from '../../img/introduction/introduction_vn.png'
 import teamInfoPlus from '../../img/introduction/teamInfoPlus.png'
 
-const IntrodutionPartner = () => {
+const IntrodutionPartner = (props) => {
     return (
-        <div style={{margin:'153px 0'}}>
+        <div style={{margin:'153px 0'}} >
             <img style={{ width: '114px', height: '8px', display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src={line_break} alt="line_break.png" />
             <p style={{ textAlign: 'center', fontSize: '60px', color: '#152C7C', fontWeight: 'bold', fontFamily: 'SVN-Gilroy',marginTop: '24px' }}>Giới thiệu chung</p>
             <Container style={{margin:'0'}}>

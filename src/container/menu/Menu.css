@@ -4,6 +4,7 @@
   margin: auto;
   z-index: 2;
   background-color: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
 }
 
 #menuContainer .container{
@@ -480,6 +481,6 @@
     }
 
   #colTitleLabel{
-    margin: 80px auto !important;
+    margin: 108px auto !important;
   }
 }
