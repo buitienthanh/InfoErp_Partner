@@ -1,1 +1,1 @@
-Infocity Landing Page
+InfoERP Partner
