@@ -41,7 +41,7 @@ export default function FormInput(props) {
                         {t(props.name)} <span style={{color:'#FA7800'}}>*</span>
                     </label>
                 </div>
-                <div style={{ borderRadius: 6, border: error !== null ? '1px solid #DC2626' : '1px solid transparent' }}>
+                <div style={{ border: error !== null ? '1px solid #DC2626' : '1px solid transparent' }}>
                     <input className='regFormInput' type={props.format} maxLength={props.maxLength} name={props.type} value={props.value}  onChange={onValueChange} autoComplete="off" placeholder={props.placeholder}/>
                 </div>
                 <div style={{ visibility: error !== null ? 'visible' : 'hidden' }}>

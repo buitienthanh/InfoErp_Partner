@@ -170,9 +170,9 @@ letter-spacing: 0.3px;
   border: none;
 }
 
-#errorLayout {
+/* #errorLayout {
   border-radius: 6px;
-}
+} */
 
 .errorMes {
   font-size: 12px;
